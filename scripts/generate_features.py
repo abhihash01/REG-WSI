@@ -13,6 +13,7 @@ from openslide import OpenSlide
 
 
 device = torch.device('cuda:2' if torch.cuda.is_available() else 'cpu')
+'''
 
 histogpt = HistoGPTForCausalLM(BioGptConfig(), PerceiverResamplerConfig())
 histogpt = histogpt.to(device)
@@ -22,19 +23,15 @@ histogpt = histogpt.to(device)
 PATH = '../running_dir/histogpt-1b-6k-pruned.pth?download=true'
 state_dict = torch.load(PATH, map_location=device)
 histogpt.load_state_dict(state_dict, strict=True)
+'''
 
-
-tokenizer = BioGptTokenizer.from_pretrained("microsoft/biogpt")
-
-prompt = 'Final diagnosis:'
-prompt = torch.tensor(tokenizer.encode(prompt)).unsqueeze(0).to(device)
 
 
 #patching and extracting features
 
 configs = PatchingConfigs()
-configs.slide_path = '../running_dir/competition_data/slide_folder'
-configs.save_path = '../running_dir/competition_data/save_folder'
+configs.slide_path = '../competition_data/slide_folder'
+configs.save_path = '../competition_data/save_folder'
 configs.model_path = '../running_dir/ctranspath.pth?download=true'
 configs.file_extension = '.tiff'
 configs.patch_size = 256
