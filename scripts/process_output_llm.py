@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # extract_pathology.py
 # pip install transformers accelerate bitsandbytes optimum
-
+'''
 import json, re, time, gc, torch
 from pathlib import Path
 from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
@@ -158,4 +158,3 @@ if __name__ == "__main__":
     main()
 
 
-'''

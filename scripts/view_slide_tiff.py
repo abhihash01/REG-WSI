@@ -4,8 +4,8 @@ import os
 import glob
 
 # Set your directories
-input_dir = "../competition_data/slide_folder"
-out_dir = "../running_dir/competition_data/slide_images"
+input_dir = "../competition_data/REG_sample"
+out_dir = "../competition_data/REG_sample_png"
 os.makedirs(out_dir, exist_ok=True)
 
 # Get all TIFF files (change '*.tiff' to '*.tif' if needed)

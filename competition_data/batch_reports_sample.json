@@ -1,0 +1,29 @@
+[
+  {
+    "id": "PIT_01_00002_01.h5",
+    "report": "Extract Organ and Cancer type and give full diagnosis. Critical findings: Consistent with post-excision of basal cell carcinoma. Microscopic findings: A small punch biopsy containing a fully ulcerated epidermis, with the basal epidermis not fully represented, is provided. There is a proliferation of basaloid tumor cell clusters that are partially cystically dilated and partially arranged in a palisade-like pattern at the margin. Surrounding the tumor, there is noticeable fibrosis of collagen connective tissue, accompanied by a somewhat shaky lymphocytic inflammatory infiltrate. Final diagnosis: Human papillomavirus.",
+    "ground_truth": "Breast, core-needle biopsy;\n  Invasive carcinoma of no special type, grade I (Tubule formation: 2, Nuclear grade: 2, Mitoses: 1)" 
+  },
+  {
+    "id": "PIT_01_00003_01.h5",
+    "report": "Extract Organ and Cancer type and give full diagnosis. Critical findings: Consistent with an ulceration on Bowen's disease. Final diagnosis: Melanoma. Microscopic findings: A small superficial biopsy sample is provided. The epidermis is flattened and exhibits acanthotic widening at the edges, with nodular infiltrates of uniform, partially hyperpigmented melanocytes situated in the Junction Zone and extending into the upper corium. There is a subepidermal presence of actinic elastosis and numerous, partially dilated capillary vessels.",
+    "ground_truth": "Breast, core-needle biopsy;\n  Invasive carcinoma of no special type, grade II (Tubule formation: 3, Nuclear grade: 2, Mitoses: 1)"
+  },
+  {
+    "id": "PIT_01_00004_01.h5",
+    "report": "Extract Organ and Cancer type and give full diagnosis. Microscopic findings: A small biopsy sample of the right ear cartilage is provided. There is distinct hyperparakeratosis with serum infiltration. Adjacent to the epidermis, there is a nodular aggregation of well-defined, non-pigmented tumor cells, which are pleomorphic, and frequently form groups and infiltrate the upper corium. Additionally, there are a few melanophages present. Critical findings: These observations are consistent with a previously diagnosed malignant melanoma. The biopsy is from a biopsy. Final diagnosis: Melanoma.",
+    "ground_truth": "Breast, core-needle biopsy;\n  Invasive carcinoma of no special type, grade II (Tubule formation: 3, Nuclear grade: 2, Mitoses: 1)"
+  },
+  {
+    "id": "PIT_01_00005_01.h5",
+    "report": "Extract Organ and Cancer type and give full diagnosis. Critical findings: Evaluation. The image depicts a post-excision of a basal cell carcinoma. Microscopic findings: A punch biopsy displaying a flattened epidermis, with some areas of superficial ulceration, and transitioning to a loose, basket-weave-like stratum corneum is presented. The connective tissue appears to be partially loosened, with some areas having strong edema and dilated capillary vessels. There is a scattered lymphocytic infiltration, with some areas showing very few neutrophils. Final diagnosis: Healthy skin.",
+    "ground_truth": ""
+  },
+  {
+    "id": "PIT_01_00006_01.h5",
+    "report": "Extract Organ and Cancer type and give full diagnosis. Critical findings: Evaluation. Consistent with a diagnosis of cutaneous melanoma. Final diagnosis: Cutaneous melanoma. Microscopic findings: A tiny, flat, superficial tissue sample, resembling a vein, is displayed. The sample contains a less noticeable epidermis, with a central cut of a large-caliber vessel containing prominent erythrocyte extravasation, as well as perivascularly stressed lymphocytic infiltration. No signs of melanocytic tumor cells are found in the HE staining.",
+    "ground_truth": "Breast, sono-guided core biopsy;\n  Invasive carcinoma of no special type, grade II (Tubule formation: 3, Nuclear grade: 3, Mitoses: 1)"
+  }
+]
+
+

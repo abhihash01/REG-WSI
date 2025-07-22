@@ -30,9 +30,9 @@ histogpt.load_state_dict(state_dict, strict=True)
 #patching and extracting features
 
 configs = PatchingConfigs()
-configs.slide_path = '../competition_data/slide_folder'
-configs.save_path = '../competition_data/save_folder'
-configs.model_path = '../running_dir/ctranspath.pth?download=true'
+configs.slide_path = '../competition_data/REG_sample'
+configs.save_path = '../competition_data/REG_sample_processed'
+configs.model_path = '../model_checkpoints/ctranspath.pth?download=true'
 configs.file_extension = '.tiff'
 configs.patch_size = 256
 configs.white_thresh = [170, 185, 175]
